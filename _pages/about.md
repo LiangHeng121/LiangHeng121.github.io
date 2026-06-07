@@ -144,6 +144,6 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 - *2024.07 - 2025.03*, Research Intern, PKU-Agibot Joint Lab, Beijing, China.
 
 # 📄 Research Experiences
-- *2025.11 - Present*, research intern at the PSI Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
+- *2025.11 - Present*, working as a research intern at the Physical Superintelligence (PSI) Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
 - *2025.03 - 2025.08*, working as a research intern at [Sharpa](https://www.sharpa.com/), collaborating with Prof. [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) and Prof. [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/).
 - *2024.07 - 2025.03*, working as a research intern at the PKU-Agibot Joint Lab, advised by Prof. [Hao Dong](https://zsdonghao.github.io/).
