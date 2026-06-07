@@ -1,0 +1,27 @@
+<script>
+    $(document).ready(function () {
+        {% if site.google_scholar_stats_use_cdn %}
+        var primaryUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@google-scholar-stats/gs_data.json';
+        {% else %}
+        var primaryUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/gs_data.json';
+        {% endif %}
+        var localUrl = '{{ "/google-scholar-stats/gs_data.json" | relative_url }}';
+
+        function render(data) {
+            var totalCit = document.getElementById('total_cit');
+            if (totalCit) { totalCit.innerHTML = data['citedby']; }
+            var citationEles = document.getElementsByClassName('show_paper_citations');
+            Array.prototype.forEach.call(citationEles, function (element) {
+                var paperId = element.getAttribute('data');
+                var pub = data['publications'][paperId];
+                if (pub) { element.innerHTML = pub['num_citations']; }
+            });
+        }
+
+        // Try the live (deployed) stats first; fall back to the local snapshot
+        // so the homepage still shows numbers before the GitHub Action has run.
+        $.getJSON(primaryUrl, render).fail(function () {
+            $.getJSON(localUrl, render);
+        });
+    })
+</script>

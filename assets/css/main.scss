@@ -1,0 +1,148 @@
+---
+---
+
+/*
+ *    Minimal Mistakes Jekyll Theme
+ *
+ *  - Michael Rose
+ *  - mademistakes.com
+ *  - https://twitter.com/mmistakes
+ *
+*/
+
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
+
+@import "reset";
+@import "base";
+
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
+
+@import "forms";
+
+@import "page";
+@import "archive";
+@import "sidebar";
+
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
+
+.paper-box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: 1px #efefef solid;
+    padding: 2em 0 2em 0;
+    
+
+    .paper-box-image{
+        justify-content: center;
+        display: flex;
+        width: 100%;
+        order: 2;
+        img {
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 3px 3px 6px #888;
+            object-fit: cover;
+        }
+        // wrapper fills the column (up to 400px) so smaller images (e.g. the
+        // square gif) scale up to the same long-edge width as the others;
+        // also acts as the positioning context for the citation badge.
+        > div { position: relative; display: block; width: 100%; max-width: 400px; }
+    }
+    
+    .paper-box-text{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    @include breakpoint($medium) {
+        .paper-box-image{
+            justify-content: center;
+            min-width: 200px;
+            max-width: 40%;
+            order: 1;
+        }
+        
+        .paper-box-text{
+            justify-content: left;
+            padding-left: 2em;
+            max-width: 60%;
+            order: 2;
+        }
+
+    }
+
+
+}
+
+$scroll_offset : 2em;
+h1:before, .anchor:before { 
+    content: ''; 
+    display: block; 
+    position: relative; 
+    width: 0; 
+    height: $scroll_offset; 
+    margin-top: -$scroll_offset;
+}
+
+.badge {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: -.5em;
+    color: white;
+    background-color: #00369f;
+    font-size: .8em;
+}
+
+.cit-badge {
+    position: absolute;
+    right: .4em;
+    bottom: .4em;
+    padding: .1em .5em;
+    color: white;
+    background-color: rgba(0, 54, 159, .85);
+    font-size: .8em;
+    border-radius: 4px;
+    line-height: 1.4;
+}
+.cit-badge:empty,
+.cit-badge .show_paper_citations:empty { display: none; }
+
+// total-citations badge sitting at the bottom-right of the "Google Scholar" link.
+// The sidebar links are display:block by default, which would push the badge to
+// its own line — keep this line inline so the badge sits beside the text.
+.gs-cit-line { white-space: nowrap; }
+.author__urls .gs-cit-line a { display: inline-block; margin-bottom: 0; }
+.cit-total-badge {
+    display: inline-block !important;
+    margin-left: .3em;
+    padding: 0 .3em;
+    color: #fff !important;
+    background-color: #00369f;
+    border-radius: 4px;
+    font-size: .38em;
+    line-height: 1.7;
+    vertical-align: bottom;
+    text-decoration: none;
+}
+.cit-total-badge .fa-quote-right { font-size: .8em; }
+.cit-total-badge:hover { text-decoration: none; }
