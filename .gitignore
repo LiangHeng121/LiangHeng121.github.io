@@ -5,3 +5,4 @@ _old_site_backup/
 .jekyll-cache/
 vendor/
 .bundle/
+Gemfile.lock

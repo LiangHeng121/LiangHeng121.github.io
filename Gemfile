@@ -1,32 +1,29 @@
 source "https://rubygems.org"
 
-# NOTE: GitHub Pages builds this site server-side with its own pinned
-# `github-pages` gem (Jekyll 3.9), so this Gemfile only affects LOCAL preview.
-# The classic github-pages stack uses APIs removed in modern Ruby, so for a
-# working local server we use native Jekyll 4 here instead.
-gem "jekyll", "~> 4.3"
-# Pin to the libsass-based converter (like classic GitHub Pages). The newer 3.x
-# uses dart-sass, which miscompiles the old vendored susy grid and breaks the
-# responsive two-column desktop layout.
-gem "jekyll-sass-converter", "~> 2.0"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+
+gem "github-pages", group: :jekyll_plugins
+
+# If you want to use Jekyll native, uncomment the line below.
+# To upgrade, run `bundle update`.
+
+# gem "jekyll"
 
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-# Plugins used by the site (see _config.yml)
+# If you have any plugins, put them here!
 group :jekyll_plugins do
+  # gem "jekyll-archives"
   gem "jekyll-feed"
-  gem "jekyll-sitemap"
-  gem "jekyll-redirect-from"
-  gem "jekyll-paginate"
-  gem "jekyll-gist"
+  gem 'jekyll-sitemap'
+  gem 'hawkins'
 end
 
 gem "webrick", "~> 1.8"
-
-# Stdlib gems unbundled from Ruby 3.4+/4.0
-gem "csv"
-gem "base64"
-gem "bigdecimal"
-gem "logger"
-gem "ostruct"
-gem "fiddle"
