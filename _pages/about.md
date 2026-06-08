@@ -191,11 +191,10 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 
 [[PDF]](https://arxiv.org/pdf/2405.17418)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{liu2024self,
-  title={Self-corrected multimodal large language model for end-to-end robot manipulation},
-  author={Liu, Jiaming and Li, Chenxuan and Wang, Guanqun and Lee, Lily and Zhou, Kaichen and Chen, Sixiang and Xiong, Chuyan and Ge, Jiaxin and Zhang, Renrui and Zhang, Shanghang},
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{li2024self,
+  title={A Self-Correcting Vision-Language-Action Model for Fast and Slow System Manipulation},
+  author={Li, Chenxuan and Liu, Jiaming and Wang, Guanqun and Li, Xiaoqi and Chen, Sixiang and Heng, Liang and Xiong, Chuyan and Ge, Jiaxin and Zhang, Renrui and Zhou, Kaichen and others},
   journal={arXiv preprint arXiv:2405.17418},
-  volume={2},
   year={2024}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
