@@ -184,15 +184,6 @@ html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-co
 /* ---- Smooth anchor scrolling ---- */
 html { scroll-behavior: smooth; }
 
-/* ---- Site footer (last updated) ---- */
-.site-footer {
-    text-align: center;
-    padding: 1.6em 0 2.2em;
-    font-size: .8em;
-    color: #999;
-}
-html.dark-mode .site-footer { color: #777; }
-
 /* ---- Click-to-enlarge figures (lightbox) ---- */
 .paper-box-image img { cursor: zoom-in; }
 .img-lightbox {
