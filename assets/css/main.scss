@@ -146,6 +146,41 @@ h1:before, .anchor:before {
 }
 .cit-total-badge .fa-quote-right { font-size: .8em; }
 
+/* ---- BibTeX "Cite" box ---- */
+.cite-box { margin-top: .4em; }
+.cite-box > summary {
+    display: inline-block;
+    cursor: pointer;
+    color: #00369f;
+    font-size: .92em;
+    list-style: none;
+}
+.cite-box > summary::-webkit-details-marker { display: none; }
+.cite-box > summary::before { content: "▸ "; }
+.cite-box[open] > summary::before { content: "▾ "; }
+.cite-box pre.bibtex {
+    margin: .5em 0 .3em;
+    padding: .7em .9em;
+    background: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    font-size: .8em;
+    line-height: 1.45;
+    white-space: pre;
+    overflow-x: auto;
+}
+.cite-box .copy-bib {
+    padding: .15em .7em;
+    font-size: .8em;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+html.dark-mode .cite-box > summary { color: #79a9ff; }
+html.dark-mode .cite-box pre.bibtex { background: #2a2a2e; border-color: #3a3a40; color: #e6e6e6; }
+html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-color: #555; }
+
 /* ---- Floating dark-mode toggle ---- */
 .theme-toggle {
     position: fixed;
