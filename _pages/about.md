@@ -157,7 +157,4 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
     <span id="busuanzi_container_site_uv">Visitors: <span id="busuanzi_value_site_uv">···</span></span>
   </p>
   <script defer src="https://cn.vercount.one/js"></script>
-  <div style="display: flex; justify-content: center;">
-    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=320&t=tt&d=3SbcvEtmc7QY9AEk0QS8aX5NjWpb6rfNMsOGTchiXzs"></script>
-  </div>
 </div>
