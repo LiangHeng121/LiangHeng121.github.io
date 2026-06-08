@@ -42,7 +42,7 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 [[Project]](https://psi-lab.ai/humdex/) [[PDF]](https://arxiv.org/pdf/2603.12260) [[Code]](https://github.com/physical-superintelligence-lab/humdex)
 
 <details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{heng2026humdex,
-  title={HumDex: Humanoid Dexterous Manipulation Made Easy},
+  title={Humdex: Humanoid dexterous manipulation made easy},
   author={Heng, Liang and Tang, Yihe and Xu, Jiajun and Bao, Henghui and Huang, Di and Wang, Yue},
   journal={arXiv preprint arXiv:2603.12260},
   year={2026}
@@ -60,7 +60,7 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 [[Project]](https://roboverseorg.github.io/ViTacFormerPage/) [[PDF]](https://arxiv.org/pdf/2506.15953) [[Code]](https://github.com/RoboVerseOrg/ViTacFormer) [[X]](https://x.com/HaoranGeng2/status/1942603430750756896)
 
 <details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{heng2025vitacformer,
-  title={ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation},
+  title={ViTacFormer: Learning cross-modal representation for visuo-tactile dexterous manipulation},
   author={Heng, Liang and Geng, Haoran and Zhang, Kaifeng and Abbeel, Pieter and Malik, Jitendra},
   journal={arXiv preprint arXiv:2506.15953},
   year={2025}
@@ -96,10 +96,12 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 [[Project]](https://rwor.github.io/) [[PDF]](https://arxiv.org/pdf/2507.03930)
 
 <details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{heng2025rwor,
-  title={RwoR: Generating Robot Demonstrations from Human Hand Collection for Policy Learning without Robot},
-  author={Heng, Liang and Li, Xiaoqi and Mao, Shangqing and Liu, Jiaming and Liu, Ruolin and Wei, Jingli and Wang, Yu-Kai and Jia, Yueru and Gu, Chenyang and Zhao, Rui and Zhang, Shanghang and Dong, Hao},
-  booktitle={IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
-  year={2025}
+  title={Rwor: Generating robot demonstrations from human hand collection for policy learning without robot},
+  author={Heng, Liang and Li, Xiaoqi and Mao, Shangqing and Liu, Jiaming and Liu, Ruolin and Wei, Jingli and Wang, Yu-Kai and Jia, Yueru and Gu, Chenyang and Zhao, Rui and others},
+  booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={13544--13551},
+  year={2025},
+  organization={IEEE}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
@@ -113,11 +115,10 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
 
 [[PDF]](https://openreview.net/forum?id=dT45OMevL5) [[Code]](https://github.com/clorislili/3ds-vla)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{li20253dsvla,
-  title={3DS-VLA: A 3D Spatial-Aware Vision Language Action Model for Robust Multi-Task Manipulation},
-  author={Li, Xiaoqi and Heng, Liang and Liu, Jiaming and Shen, Yan and Gu, Chenyang and Liu, Zhuoyang and Chen, Hao and Han, Nuowei and Zhang, Renrui and Tang, Hao and Zhang, Shanghang and Dong, Hao},
-  booktitle={Conference on Robot Learning (CoRL)},
-  year={2025}
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{li20253ds,
+  title={3ds-vla: A 3d spatial-aware vision language action model for robust multi-task manipulation},
+  author={Li, Xiaoqi and Heng, Liang and Liu, Jiaming and Shen, Yan and Gu, Chenyang and Liu, Zhuoyang and Chen, Hao and Han, Nuowei and Zhang, Renrui and Tang, Hao and others},
+  booktitle={9th Annual Conference on Robot Learning}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
@@ -131,10 +132,10 @@ Xiaoqi Li, Lingyun Xu, Mingxu Zhang, Jiaming Liu, Yan Shen, Iaroslav Ponomarenko
 
 [[PDF]](https://www.arxiv.org/pdf/2505.02166) [[Code]](https://github.com/clorislili/CrayonRobo)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{li2025crayonrobo,
-  title={CrayonRobo: Object-Centric Prompt-Driven Vision-Language-Action Model for Robotic Manipulation},
-  author={Li, Xiaoqi and Xu, Lingyun and Zhang, Mingxu and Liu, Jiaming and Shen, Yan and Ponomarenko, Iaroslav and Xu, Jiahui and Heng, Liang and Huang, Siyuan and Zhang, Shanghang and Dong, Hao},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{li2025crayonrobo,
+  title={Crayonrobo: Object-centric prompt-driven vision-language-action model for robotic manipulation},
+  author={Li, Xiaoqi and Xu, Lingyun and Zhang, Mingxu and Liu, Jiaming and Shen, Yan and Ponomarenko, Iaroslav and Xu, Jiahui and Heng, Liang and Huang, Siyuan and Zhang, Shanghang and others},
+  journal={arXiv preprint arXiv:2505.02166},
   year={2025}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
@@ -149,11 +150,13 @@ Xiaoqi Li, Jiaming Liu, Nuowei Han, **Liang Heng**, Yandong Guo, Hao Dong, Yang 
 
 [[PDF]](https://www.arxiv.org/pdf/2505.01809)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{li20253dwsvg,
-  title={3D Weakly Supervised Visual Grounding at Category and Instance Levels},
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{li20253dwg,
+  title={3dwg: 3d weakly supervised visual grounding via category and instance-level alignment},
   author={Li, Xiaoqi and Liu, Jiaming and Han, Nuowei and Heng, Liang and Guo, Yandong and Dong, Hao and Liu, Yang},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2025}
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)},
+  pages={12766--12773},
+  year={2025},
+  organization={IEEE}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
@@ -167,10 +170,13 @@ Rongyu Zhang, Menghang Dong, Yuan Zhang, **Liang Heng**, Xiaowei Chi, Gaole Dai,
 
 [[PDF]](https://arxiv.org/pdf/2503.20384) [[Code]](https://github.com/RoyZry98/MoLe-VLA-Pytorch)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{zhang2026molevla,
-  title={MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation},
-  author={Zhang, Rongyu and Dong, Menghang and Zhang, Yuan and Heng, Liang and Chi, Xiaowei and Dai, Gaole and Du, Li and Du, Yuan and Zhang, Shanghang},
-  booktitle={AAAI Conference on Artificial Intelligence},
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{zhang2026mole,
+  title={Mole-vla: Dynamic layer-skipping vision language action model via mixture-of-layers for efficient robot manipulation},
+  author={Zhang, Rongyu and Dong, Menghang and Zhang, Yuan and Heng, Liang and Chi, Xiaowei and Dai, Gaole and Du, Li and Wang, Dan and Du, Yuan and Zhang, Shanghang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={22},
+  pages={18764--18772},
   year={2026}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
@@ -185,10 +191,11 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 
 [[PDF]](https://arxiv.org/pdf/2405.17418)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{li2024scvla,
-  title={A Self-Correcting Vision-Language-Action Model for Fast and Slow System Manipulation},
-  author={Li, Chenxuan and Liu, Jiaming and Wang, Guanqun and Li, Xiaoqi and Chen, Sixiang and Heng, Liang and Xiong, Chuyan and Ge, Jiaxin and Zhang, Renrui and Zhou, Kaichen and Zhang, Shanghang},
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{liu2024self,
+  title={Self-corrected multimodal large language model for end-to-end robot manipulation},
+  author={Liu, Jiaming and Li, Chenxuan and Wang, Guanqun and Lee, Lily and Zhou, Kaichen and Chen, Sixiang and Xiong, Chuyan and Ge, Jiaxin and Zhang, Renrui and Zhang, Shanghang},
   journal={arXiv preprint arXiv:2405.17418},
+  volume={2},
   year={2024}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
