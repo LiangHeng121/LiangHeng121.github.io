@@ -145,4 +145,55 @@ h1:before, .anchor:before {
     text-decoration: none;
 }
 .cit-total-badge .fa-quote-right { font-size: .8em; }
+
+/* ---- Floating dark-mode toggle ---- */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    font-size: 17px;
+    line-height: 1;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    transition: background .2s, color .2s;
+}
+html.dark-mode .theme-toggle {
+    background: #2a2a2e;
+    color: #ffd351;
+    border-color: #555;
+}
+
+/* ---- Dark mode ---- */
+html.dark-mode {
+    background-color: #1b1b1d;
+}
+html.dark-mode body {
+    background-color: #1b1b1d;
+    color: #d6d6d6;
+}
+html.dark-mode {
+    a { color: #79a9ff; }
+    h1, h2, h3, h4, h5, h6 { color: #f1f1f1; }
+    .masthead { background-color: #232327; border-bottom-color: #34343a; }
+    .greedy-nav { background: #232327; }
+    .greedy-nav a,
+    .masthead__menu-item a { color: #d6d6d6; }
+    .greedy-nav .visible-links a:before { background: #79a9ff; }
+    .greedy-nav__toggle { color: #d6d6d6; }
+    .sidebar, .page__content, .author__bio { color: #d6d6d6; }
+    .author__name { color: #f1f1f1; }
+    .author__urls a { color: #d6d6d6; }
+    .author__avatar img { border-color: #34343a; }
+    .paper-box { border-bottom-color: #34343a; }
+    blockquote { border-left-color: #34343a; color: #b3b3b3; }
+    code, pre, .highlight { background: #2a2a2e; color: #e6e6e6; }
+    hr { border-color: #34343a; }
+}
 .cit-total-badge:hover { text-decoration: none; }

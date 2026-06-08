@@ -27,6 +27,27 @@ layout: compress
       </article>
     </div>
 
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode"></button>
+    <script>
+      (function () {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        function setIcon() {
+          var dark = document.documentElement.classList.contains('dark-mode');
+          btn.innerHTML = dark ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+        }
+        setIcon();
+        btn.addEventListener('click', function () {
+          document.documentElement.classList.toggle('dark-mode');
+          try {
+            localStorage.setItem('theme',
+              document.documentElement.classList.contains('dark-mode') ? 'dark' : 'light');
+          } catch (e) {}
+          setIcon();
+        });
+      })();
+    </script>
+
     {% include scripts.html %}
 
   </body>

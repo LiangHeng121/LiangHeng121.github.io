@@ -147,3 +147,17 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 - *2025.11 - Present*, working as a research intern at the Physical Superintelligence (PSI) Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
 - *2025.03 - 2025.08*, working as a research intern at [Sharpa](https://www.sharpa.com/), collaborating with Prof. [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) and Prof. [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/).
 - *2024.07 - 2025.03*, working as a research intern at the PKU-Agibot Joint Lab, advised by Prof. [Hao Dong](https://zsdonghao.github.io/).
+
+<br>
+
+<div style="text-align: center; margin-top: 2.5em;">
+  <p style="font-size: .85em; color: inherit; margin-bottom: 1em;">
+    <span id="busuanzi_container_site_pv">👁️ Total visits: <span id="busuanzi_value_site_pv">···</span></span>
+    &nbsp;|&nbsp;
+    <span id="busuanzi_container_site_uv">Visitors: <span id="busuanzi_value_site_uv">···</span></span>
+  </p>
+  <script defer src="https://cn.vercount.one/js"></script>
+  <div style="display: flex; justify-content: center;">
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=320&t=tt&d=3SbcvEtmc7QY9AEk0QS8aX5NjWpb6rfNMsOGTchiXzs"></script>
+  </div>
+</div>
