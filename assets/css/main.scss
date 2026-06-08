@@ -181,6 +181,33 @@ html.dark-mode .cite-box > summary { color: #79a9ff; }
 html.dark-mode .cite-box pre.bibtex { background: #2a2a2e; border-color: #3a3a40; color: #e6e6e6; }
 html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-color: #555; }
 
+/* ---- WeChat QR popup in the sidebar ---- */
+.wechat-item { position: relative; }
+.wechat-qr {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 50;
+    padding: 6px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+    text-align: center;
+}
+.wechat-qr img {
+    display: block;
+    width: 180px;
+    max-width: none;
+    border-radius: 3px;
+}
+.wechat-qr small { display: block; margin-top: 4px; font-size: .75em; color: #888; }
+.wechat-item:hover .wechat-qr,
+.wechat-item:focus-within .wechat-qr { display: block; }
+html.dark-mode .wechat-qr { background: #2a2a2e; border-color: #555; }
+html.dark-mode .wechat-qr small { color: #aaa; }
+
 /* ---- Floating dark-mode toggle ---- */
 .theme-toggle {
     position: fixed;
