@@ -181,6 +181,37 @@ html.dark-mode .cite-box > summary { color: #79a9ff; }
 html.dark-mode .cite-box pre.bibtex { background: #2a2a2e; border-color: #3a3a40; color: #e6e6e6; }
 html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-color: #555; }
 
+/* ---- Smooth anchor scrolling ---- */
+html { scroll-behavior: smooth; }
+
+/* ---- Site footer (last updated) ---- */
+.site-footer {
+    text-align: center;
+    padding: 1.6em 0 2.2em;
+    font-size: .8em;
+    color: #999;
+}
+html.dark-mode .site-footer { color: #777; }
+
+/* ---- Click-to-enlarge figures (lightbox) ---- */
+.paper-box-image img { cursor: zoom-in; }
+.img-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background: rgba(0, 0, 0, .82);
+    justify-content: center;
+    align-items: center;
+    cursor: zoom-out;
+}
+.img-lightbox img {
+    max-width: 92vw;
+    max-height: 92vh;
+    border-radius: 6px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, .5);
+}
+
 /* ---- Back-to-top button + nav scroll-spy ---- */
 .back-to-top {
     position: fixed;

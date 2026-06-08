@@ -27,6 +27,23 @@ layout: compress
       </article>
     </div>
 
+    <footer class="site-footer">Last updated: {{ site.time | date: "%B %Y" }}</footer>
+
+    <div id="img-lightbox" class="img-lightbox" aria-hidden="true"><img id="img-lightbox-img" src="" alt="enlarged figure"></div>
+    <script>
+      (function () {
+        var lb = document.getElementById('img-lightbox');
+        var lbImg = document.getElementById('img-lightbox-img');
+        if (!lb || !lbImg) return;
+        function close() { lb.style.display = 'none'; lbImg.src = ''; }
+        Array.prototype.forEach.call(document.querySelectorAll('.paper-box-image img'), function (img) {
+          img.addEventListener('click', function () { lbImg.src = img.src; lb.style.display = 'flex'; });
+        });
+        lb.addEventListener('click', close);
+        document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+      })();
+    </script>
+
     {% if site.author.wechat_qr %}
     <div id="wechat-modal" class="wechat-modal" onclick="this.style.display='none'">
       <div class="wechat-modal-card">
