@@ -23,12 +23,27 @@ data = resp.json()
 if "error" in data:
     raise SystemExit(f"SerpApi error: {data['error']}")
 
-# Total citations: cited_by.table -> first row -> citations.all
-total_citations = 0
-for row in data.get("cited_by", {}).get("table", []):
-    if "citations" in row:
-        total_citations = row["citations"].get("all", 0) or 0
-        break
+# Summary stats from cited_by.table ([citations, h_index, i10_index]) and the
+# per-year graph.
+cited_by = data.get("cited_by", {})
+table = cited_by.get("table", [])
+
+
+def _table_val(key):
+    for row in table:
+        if key in row:
+            return row[key].get("all", 0) or 0
+    return 0
+
+
+total_citations = _table_val("citations")
+hindex = _table_val("h_index")
+i10index = _table_val("i10_index")
+cites_per_year = {
+    str(g.get("year")): g.get("citations", 0)
+    for g in cited_by.get("graph", []) or []
+    if g.get("year")
+}
 
 # Per-paper citations, keyed by SerpApi citation_id (== Scholar author_pub_id,
 # e.g. "cW-kkGwAAAAJ:LkGwnXOMwfcC"), matching the data-attrs in about.md.
@@ -44,6 +59,9 @@ for article in data.get("articles", []):
 
 result = {
     "citedby": total_citations,
+    "hindex": hindex,
+    "i10index": i10index,
+    "cites_per_year": cites_per_year,
     "publications": publications,
     "updated": str(datetime.now()),
 }

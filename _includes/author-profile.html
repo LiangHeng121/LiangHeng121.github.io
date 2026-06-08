@@ -114,6 +114,8 @@
       {% endif %}
       {% if author.googlescholar %}
         <li class="gs-cit-line"><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a><a href="{{ author.googlescholar }}" class="cit-total-badge" title="Total citations"><i class="fas fa-quote-right"></i>&nbsp;<span id="total_cit"></span></a></li>
+        <li class="gs-stat"><i class="fas fa-fw fa-chart-line" aria-hidden="true"></i> h-index <b id="h_index">--</b> &nbsp; i10-index <b id="i10_index">--</b></li>
+        <li class="gs-chart-li"><div class="gs-chart-label">Citations per year</div><div id="cite-chart"></div></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed-square ai-fw"></i> PubMed</a></li>

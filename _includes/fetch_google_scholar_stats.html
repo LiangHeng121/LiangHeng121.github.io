@@ -10,12 +10,32 @@
         function render(data) {
             var totalCit = document.getElementById('total_cit');
             if (totalCit) { totalCit.innerHTML = data['citedby']; }
+            var hi = document.getElementById('h_index');
+            if (hi && data['hindex'] != null) { hi.innerHTML = data['hindex']; }
+            var i10 = document.getElementById('i10_index');
+            if (i10 && data['i10index'] != null) { i10.innerHTML = data['i10index']; }
             var citationEles = document.getElementsByClassName('show_paper_citations');
             Array.prototype.forEach.call(citationEles, function (element) {
                 var paperId = element.getAttribute('data');
                 var pub = data['publications'][paperId];
                 if (pub) { element.innerHTML = pub['num_citations']; }
             });
+            renderCiteChart(data['cites_per_year']);
+        }
+
+        function renderCiteChart(cpy) {
+            var el = document.getElementById('cite-chart');
+            if (!el || !cpy) { return; }
+            var years = Object.keys(cpy).sort();
+            if (!years.length) { return; }
+            var max = 1;
+            years.forEach(function (y) { if (cpy[y] > max) { max = cpy[y]; } });
+            el.innerHTML = years.map(function (y) {
+                var h = Math.max(3, Math.round(cpy[y] / max * 46));
+                return '<div class="cc-col"><div class="cc-val">' + cpy[y] +
+                    '</div><div class="cc-bar" style="height:' + h + 'px" title="' + y + ': ' + cpy[y] +
+                    ' citations"></div><div class="cc-year">' + y + '</div></div>';
+            }).join('');
         }
 
         // Try the live (deployed) stats first; fall back to the local snapshot

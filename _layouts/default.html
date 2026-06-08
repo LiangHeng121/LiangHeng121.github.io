@@ -41,7 +41,34 @@ layout: compress
     </script>
     {% endif %}
 
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode"></button>
+    <script>
+      (function () {
+        var btt = document.getElementById('back-to-top');
+        if (btt) {
+          var toggleBtt = function () { btt.style.display = (window.pageYOffset > 300) ? 'flex' : 'none'; };
+          window.addEventListener('scroll', toggleBtt, { passive: true }); toggleBtt();
+          btt.addEventListener('click', function () { window.scrollTo({ top: 0, behavior: 'smooth' }); });
+        }
+        var navLinks = Array.prototype.slice.call(document.querySelectorAll('.greedy-nav .visible-links a'));
+        var map = {};
+        navLinks.forEach(function (a) {
+          var h = a.getAttribute('href') || '', i = h.indexOf('#');
+          if (i >= 0) { var id = h.slice(i + 1); if (id && document.getElementById(id)) { map[id] = a; } }
+        });
+        var targets = Object.keys(map).map(function (id) { return document.getElementById(id); });
+        if (targets.length) {
+          var spy = function () {
+            var active = null;
+            targets.forEach(function (t) { if (t.getBoundingClientRect().top <= 120) { active = t; } });
+            navLinks.forEach(function (a) { a.classList.remove('active-section'); });
+            if (active && map[active.id]) { map[active.id].classList.add('active-section'); }
+          };
+          window.addEventListener('scroll', spy, { passive: true }); spy();
+        }
+      })();
+    </script>
     <script>
       (function () {
         var btn = document.getElementById('theme-toggle');
