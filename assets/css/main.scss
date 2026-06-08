@@ -181,32 +181,33 @@ html.dark-mode .cite-box > summary { color: #79a9ff; }
 html.dark-mode .cite-box pre.bibtex { background: #2a2a2e; border-color: #3a3a40; color: #e6e6e6; }
 html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-color: #555; }
 
-/* ---- WeChat QR popup in the sidebar ---- */
-.wechat-item { position: relative; }
-.wechat-qr {
+/* ---- WeChat QR modal ---- */
+.wechat-modal {
     display: none;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    z-index: 50;
-    padding: 6px;
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    background: rgba(0, 0, 0, .55);
+    justify-content: center;
+    align-items: center;
+}
+.wechat-modal-card {
     background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .25);
+    padding: 16px;
+    border-radius: 10px;
     text-align: center;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, .4);
+    max-width: 90vw;
 }
-.wechat-qr img {
+.wechat-modal-card img {
     display: block;
-    width: 180px;
-    max-width: none;
-    border-radius: 3px;
+    width: 300px;
+    max-width: 80vw;
+    border-radius: 6px;
 }
-.wechat-qr small { display: block; margin-top: 4px; font-size: .75em; color: #888; }
-.wechat-item:hover .wechat-qr,
-.wechat-item:focus-within .wechat-qr { display: block; }
-html.dark-mode .wechat-qr { background: #2a2a2e; border-color: #555; }
-html.dark-mode .wechat-qr small { color: #aaa; }
+.wechat-modal-card p { margin: .7em 0 0; font-size: .9em; color: #555; }
+html.dark-mode .wechat-modal-card { background: #2a2a2e; }
+html.dark-mode .wechat-modal-card p { color: #bbb; }
 
 /* ---- Floating dark-mode toggle ---- */
 .theme-toggle {

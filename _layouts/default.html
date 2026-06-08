@@ -27,6 +27,20 @@ layout: compress
       </article>
     </div>
 
+    {% if site.author.wechat_qr %}
+    <div id="wechat-modal" class="wechat-modal" onclick="this.style.display='none'">
+      <div class="wechat-modal-card">
+        <img src="{{ site.author.wechat_qr }}" alt="WeChat QR code">
+        <p>Scan to add me on WeChat</p>
+      </div>
+    </div>
+    <script>
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') { var m = document.getElementById('wechat-modal'); if (m) m.style.display = 'none'; }
+      });
+    </script>
+    {% endif %}
+
     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark / light mode"></button>
     <script>
       (function () {
