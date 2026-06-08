@@ -181,6 +181,10 @@ html.dark-mode .cite-box > summary { color: #79a9ff; }
 html.dark-mode .cite-box pre.bibtex { background: #2a2a2e; border-color: #3a3a40; color: #e6e6e6; }
 html.dark-mode .cite-box .copy-bib { background: #2a2a2e; color: #ddd; border-color: #555; }
 
+/* ---- X (Twitter) inline logo ---- */
+.x-icon-wrap { display: inline-block; width: 1.25em; text-align: center; font-style: normal; }
+.x-icon { width: .92em; height: .92em; fill: currentColor; vertical-align: -.13em; }
+
 /* ---- WeChat QR modal ---- */
 .wechat-modal {
     display: none;

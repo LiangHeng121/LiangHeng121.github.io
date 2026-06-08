@@ -59,11 +59,11 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 
 [[Project]](https://roboverseorg.github.io/ViTacFormerPage/) [[PDF]](https://arxiv.org/pdf/2506.15953) [[Code]](https://github.com/RoboVerseOrg/ViTacFormer) [[X]](https://x.com/HaoranGeng2/status/1942603430750756896)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{heng2026vitacformer,
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{heng2025vitacformer,
   title={ViTacFormer: Learning Cross-Modal Representation for Visuo-Tactile Dexterous Manipulation},
   author={Heng, Liang and Geng, Haoran and Zhang, Kaifeng and Abbeel, Pieter and Malik, Jitendra},
-  booktitle={Robotics: Science and Systems (RSS)},
-  year={2026}
+  journal={arXiv preprint arXiv:2506.15953},
+  year={2025}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
@@ -77,11 +77,11 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 
 [[Project]](https://sites.google.com/view/imagine2act) [[PDF]](https://arxiv.org/pdf/2509.17125) [[Code]](https://github.com/LiangHeng121/Imagine2Act)
 
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{heng2026imagine2act,
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{heng2025imagine2act,
   title={Imagine2Act: Leveraging Object-Action Motion Consistency from Imagined Goals for Robotic Manipulation},
   author={Heng, Liang and Xu, Jiadong and Wang, Yiwen and Li, Xiaoqi and Cai, Muhe and Shen, Yan and Zhu, Juan and Ren, Guanghui and Dong, Hao},
-  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
-  year={2026}
+  journal={arXiv preprint arXiv:2509.17125},
+  year={2025}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
