@@ -32,24 +32,6 @@ I am applying for PhD programs in the 2026–2027 cycle (Fall 2027 admission).
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/simple.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278)
-
-Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing, Junkai Xia, Xiawei Liu, Michael Leong, **Liang Heng**, Di Huang, Yue Wang
-
-[[PDF]](https://arxiv.org/pdf/2606.08278)
-
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{wei2026simple,
-  title={SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation},
-  author={Wei, Songlin and Ni, Zhenhao and Liu, Jie and Zhao, Zhenyu and Ye, Junjie and Jing, Hongyi and Xia, Junkai and Liu, Xiawei and Leong, Michael and Heng, Liang and Huang, Di and Wang, Yue},
-  journal={arXiv preprint arXiv:2606.08278},
-  year={2026}
-}</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/humdex.gif' alt="sym" width="100%"><div class="cit-badge"><i class="fa fa-quote-right" aria-hidden="true"></i> <span class='show_paper_citations' data='cW-kkGwAAAAJ:WF5omc3nYNoC'></span></div></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -137,6 +119,24 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
   title={3ds-vla: A 3d spatial-aware vision language action model for robust multi-task manipulation},
   author={Li, Xiaoqi and Heng, Liang and Liu, Jiaming and Shen, Yan and Gu, Chenyang and Liu, Zhuoyang and Chen, Hao and Han, Nuowei and Zhang, Renrui and Tang, Hao and others},
   booktitle={9th Annual Conference on Robot Learning}
+}</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/simple.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278)
+
+Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing, Junkai Xia, Xiawei Liu, Michael Leong, **Liang Heng**, Di Huang, Yue Wang
+
+[[PDF]](https://arxiv.org/pdf/2606.08278)
+
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{wei2026simple,
+  title={SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation},
+  author={Wei, Songlin and Ni, Zhenhao and Liu, Jie and Zhao, Zhenyu and Ye, Junjie and Jing, Hongyi and Xia, Junkai and Liu, Xiawei and Leong, Michael and Heng, Liang and Huang, Di and Wang, Yue},
+  journal={arXiv preprint arXiv:2606.08278},
+  year={2026}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
