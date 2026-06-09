@@ -141,6 +141,27 @@ Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing, Junkai Xi
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/mole.png' alt="sym" width="100%"><div class="cit-badge"><i class="fa fa-quote-right" aria-hidden="true"></i> <span class='show_paper_citations' data='cW-kkGwAAAAJ:qjMakFHDy7sC'></span></div></div></div>
+<div class='paper-box-text' markdown="1">
+
+[MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation](https://arxiv.org/abs/2503.20384)
+
+Rongyu Zhang, Menghang Dong, Yuan Zhang, **Liang Heng**, Xiaowei Chi, Gaole Dai, Li Du, Yuan Du, Shanghang Zhang
+
+[[PDF]](https://arxiv.org/pdf/2503.20384) [[Code]](https://github.com/RoyZry98/MoLe-VLA-Pytorch)
+
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{zhang2026mole,
+  title={Mole-vla: Dynamic layer-skipping vision language action model via mixture-of-layers for efficient robot manipulation},
+  author={Zhang, Rongyu and Dong, Menghang and Zhang, Yuan and Heng, Liang and Chi, Xiaowei and Dai, Gaole and Du, Li and Wang, Dan and Du, Yuan and Zhang, Shanghang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={22},
+  pages={18764--18772},
+  year={2026}
+}</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/cvpr2025.png' alt="sym" width="100%"><div class="cit-badge"><i class="fa fa-quote-right" aria-hidden="true"></i> <span class='show_paper_citations' data='cW-kkGwAAAAJ:9yKSN-GCB0IC'></span></div></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -175,27 +196,6 @@ Xiaoqi Li, Jiaming Liu, Nuowei Han, **Liang Heng**, Yandong Guo, Hao Dong, Yang 
   pages={12766--12773},
   year={2025},
   organization={IEEE}
-}</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/mole.png' alt="sym" width="100%"><div class="cit-badge"><i class="fa fa-quote-right" aria-hidden="true"></i> <span class='show_paper_citations' data='cW-kkGwAAAAJ:qjMakFHDy7sC'></span></div></div></div>
-<div class='paper-box-text' markdown="1">
-
-[MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation](https://arxiv.org/abs/2503.20384)
-
-Rongyu Zhang, Menghang Dong, Yuan Zhang, **Liang Heng**, Xiaowei Chi, Gaole Dai, Li Du, Yuan Du, Shanghang Zhang
-
-[[PDF]](https://arxiv.org/pdf/2503.20384) [[Code]](https://github.com/RoyZry98/MoLe-VLA-Pytorch)
-
-<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@inproceedings{zhang2026mole,
-  title={Mole-vla: Dynamic layer-skipping vision language action model via mixture-of-layers for efficient robot manipulation},
-  author={Zhang, Rongyu and Dong, Menghang and Zhang, Yuan and Heng, Liang and Chi, Xiaowei and Dai, Gaole and Du, Li and Wang, Dan and Du, Yuan and Zhang, Shanghang},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume={40},
-  number={22},
-  pages={18764--18772},
-  year={2026}
 }</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
 </div>
 </div>
