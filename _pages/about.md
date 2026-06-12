@@ -130,7 +130,7 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
 
 Songlin Wei, Zhenhao Ni, Jie Liu, Zhenyu Zhao, Junjie Ye, Hongyi Jing, Junkai Xia, Xiawei Liu, Michael Leong, **Liang Heng**, Di Huang, Yue Wang
 
-[[PDF]](https://arxiv.org/pdf/2606.08278)
+[[PDF]](https://arxiv.org/pdf/2606.08278) [[Code]](https://github.com/physical-superintelligence-lab/SIMPLE)
 
 <details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@article{wei2026simple,
   title={SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation},
