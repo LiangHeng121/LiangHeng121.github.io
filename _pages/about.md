@@ -219,8 +219,8 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 </div>
 
 # 🎖 Honors and Awards
-- *2026.06* Academic Star of Hope, Yuanpei College, Peking University.
-- *2026.06* SenseTime Scholarship, 2026.
+- *2026* SenseTime Scholarship.
+- *2026* Academic Star of Hope, Yuanpei College, Peking University.
 - *2025* Yuanpei Young Scholar, Peking University.
 - *2023* Freshman Scholarship, Peking University.
 
