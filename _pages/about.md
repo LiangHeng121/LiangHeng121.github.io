@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year undergraduate at <a href='https://yuanpei.pku.edu.cn/'>Yuanpei College</a>, <a href='https://www.pku.edu.cn/'>Peking University</a>, majoring in Intelligence Science and Technology, and I expect to graduate in 2027. I am currently a summer research intern at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, working with Prof. <a href='https://www.gshi.me/'>Guanya Shi</a>; earlier in 2026, I was a visiting student at the <a href='https://www.berkeley.edu/'>University of California, Berkeley</a>.
+I am a third-year undergraduate at <a href='https://yuanpei.pku.edu.cn/'>Yuanpei College</a>, <a href='https://www.pku.edu.cn/'>Peking University</a>, majoring in Intelligence Science and Technology, and I expect to graduate in 2027. I am currently a summer research intern at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, working with Prof. <a href='https://www.gshi.me/'>Guanya Shi</a>.
 
 My research, advised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a> and Prof. <a href='https://zsdonghao.github.io/'>Hao Dong</a>, focuses on **Embodied AI**, **Dexterous Manipulation**, and **Humanoid Robots**. Broadly, I am interested in building general-purpose robots that perceive, learn, and act robustly in the unstructured physical world. I have also collaborated with Prof. <a href='https://people.eecs.berkeley.edu/~pabbeel/'>Pieter Abbeel</a> and Prof. <a href='https://people.eecs.berkeley.edu/~malik/'>Jitendra Malik</a> at <a href='https://www.sharpa.com/'>Sharpa</a>.
 
@@ -228,11 +228,13 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 - *2023.09 - 2027.06 (expected)*, B.S. in Intelligence Science and Technology, Yuanpei College, Peking University, China.
 
 # 💻 Internships
+- *2026.06 - Present*, Summer Research Intern, [Carnegie Mellon University](https://www.cmu.edu/), Pittsburgh, USA.
 - *2025.11 - Present*, Research Intern, WorldEngine AI, Los Angeles, USA.
 - *2025.03 - 2025.08*, Research Intern, [Sharpa](https://www.sharpa.com/), Shanghai, China.
 - *2024.07 - 2025.03*, Research Intern, PKU-Agibot Joint Lab, Beijing, China.
 
 # 📄 Research Experiences
+- *2026.06 - Present*, working as a summer research intern at Carnegie Mellon University, advised by Prof. [Guanya Shi](https://www.gshi.me/).
 - *2025.11 - Present*, working as a research intern at the Physical Superintelligence (PSI) Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
 - *2025.03 - 2025.08*, working as a research intern at [Sharpa](https://www.sharpa.com/), collaborating with Prof. [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) and Prof. [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/).
 - *2024.07 - 2025.03*, working as a research intern at the PKU-Agibot Joint Lab, advised by Prof. [Hao Dong](https://zsdonghao.github.io/).
