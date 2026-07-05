@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a third-year undergraduate at <a href='https://yuanpei.pku.edu.cn/'>Yuanpei College</a>, <a href='https://www.pku.edu.cn/'>Peking University</a>, majoring in Intelligence Science and Technology, and I expect to graduate in 2027. I am currently a visiting student at the <a href='https://www.berkeley.edu/'>University of California, Berkeley</a> for the Spring and Summer 2026 terms.
+I am a third-year undergraduate at <a href='https://yuanpei.pku.edu.cn/'>Yuanpei College</a>, <a href='https://www.pku.edu.cn/'>Peking University</a>, majoring in Intelligence Science and Technology, and I expect to graduate in 2027. I am currently a summer research intern at <a href='https://www.cmu.edu/'>Carnegie Mellon University</a>, working with Prof. <a href='https://www.gshi.me/'>Guanya Shi</a>; earlier in 2026, I was a visiting student at the <a href='https://www.berkeley.edu/'>University of California, Berkeley</a>.
 
 My research, advised by Prof. <a href='https://yuewang.xyz/'>Yue Wang</a> and Prof. <a href='https://zsdonghao.github.io/'>Hao Dong</a>, focuses on **Embodied AI**, **Dexterous Manipulation**, and **Humanoid Robots**. Broadly, I am interested in building general-purpose robots that perceive, learn, and act robustly in the unstructured physical world. I have also collaborated with Prof. <a href='https://people.eecs.berkeley.edu/~pabbeel/'>Pieter Abbeel</a> and Prof. <a href='https://people.eecs.berkeley.edu/~malik/'>Jitendra Malik</a> at <a href='https://www.sharpa.com/'>Sharpa</a>.
 
