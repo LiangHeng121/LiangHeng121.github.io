@@ -228,14 +228,14 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 - *2023.09 - 2027.06 (expected)*, B.S. in Intelligence Science and Technology, Yuanpei College, Peking University, China.
 
 # 💻 Internships
-- *2026.06 - Present*, Summer Research Intern, [Carnegie Mellon University](https://www.cmu.edu/), Pittsburgh, USA.
-- *2025.11 - Present*, Research Intern, WorldEngine AI, Los Angeles, USA.
+- *2026.07 - Present*, Summer Research Intern, LeCAR Lab, [Carnegie Mellon University](https://www.cmu.edu/), Pittsburgh, USA.
+- *2025.11 - 2026.07*, Research Intern, WorldEngine AI, Los Angeles, USA.
 - *2025.03 - 2025.08*, Research Intern, [Sharpa](https://www.sharpa.com/), Shanghai, China.
 - *2024.07 - 2025.03*, Research Intern, PKU-Agibot Joint Lab, Beijing, China.
 
 # 📄 Research Experiences
-- *2026.06 - Present*, working as a summer research intern at Carnegie Mellon University, advised by Prof. [Guanya Shi](https://www.gshi.me/).
-- *2025.11 - Present*, working as a research intern at the Physical Superintelligence (PSI) Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
+- *2026.07 - Present*, working as a summer research intern at the [LeCAR Lab](https://lecar-lab.github.io/), Carnegie Mellon University, advised by Prof. [Guanya Shi](https://www.gshi.me/).
+- *2025.11 - 2026.07*, working as a research intern at the Physical Superintelligence (PSI) Lab, USC, advised by Prof. [Yue Wang](https://yuewang.xyz/).
 - *2025.03 - 2025.08*, working as a research intern at [Sharpa](https://www.sharpa.com/), collaborating with Prof. [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) and Prof. [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/).
 - *2024.07 - 2025.03*, working as a research intern at the PKU-Agibot Joint Lab, advised by Prof. [Hao Dong](https://zsdonghao.github.io/).
 
