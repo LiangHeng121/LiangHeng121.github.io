@@ -228,7 +228,7 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 - *2023.09 - 2027.06 (expected)*, B.S. in Intelligence Science and Technology, Yuanpei College, Peking University, China.
 
 # 💻 Internships
-- *2026.07 - Present*, Summer Research Intern, LeCAR Lab, [Carnegie Mellon University](https://www.cmu.edu/), Pittsburgh, USA.
+- *2026.07 - Present*, Summer Research Intern, [Carnegie Mellon University](https://www.cmu.edu/), Pittsburgh, USA.
 - *2025.11 - 2026.07*, Research Intern, WorldEngine AI, Los Angeles, USA.
 - *2025.03 - 2025.08*, Research Intern, [Sharpa](https://www.sharpa.com/), Shanghai, China.
 - *2024.07 - 2025.03*, Research Intern, PKU-Agibot Joint Lab, Beijing, China.
