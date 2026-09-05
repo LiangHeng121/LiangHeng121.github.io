@@ -123,7 +123,7 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/simple.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoRL 2026</div><img src='images/simple.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [SIMPLE: Simulation-Based Policy Learning and Evaluation for Humanoid Loco-manipulation](https://arxiv.org/abs/2606.08278)
