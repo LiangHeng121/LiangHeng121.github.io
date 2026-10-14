@@ -219,6 +219,7 @@ Chenxuan Li, Jiaming Liu, Guanqun Wang, Xiaoqi Li, Sixiang Chen, **Liang Heng**,
 </div>
 
 # 🎖 Honors and Awards
+- *2026* [Huanyu Exploration Award](https://open.work.weixin.qq.com/wwopen/mpnews?mixuin=JCl3EQAABwBINiPhAAAUAA&mfid=WW0321-9jsI3QAABwB_1Zz5JuQtkw2Trgsa9&idx=0&sn=47d691f4bcd902a9116f1de2e1dd15e6), Yuanpei College, Peking University.
 - *2026* SenseTime Scholarship.
 - *2026* Academic Star of Hope, Yuanpei College, Peking University.
 - *2025* Yuanpei Young Scholar, Peking University.
