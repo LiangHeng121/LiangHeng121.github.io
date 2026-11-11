@@ -123,6 +123,27 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/spatial-umi-dream.png' alt="Spatial-UMI-Dream overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation](https://arxiv.org/abs/2611.07229)
+
+Weiduo Yuan<sup>*</sup>, Ze Yuan<sup>*</sup>, Sihan Liu<sup>*</sup>, Jionghao Wang, **Liang Heng**, Zhenyu Zhao, Yue Wang
+
+[[Project]](https://weiduoyuan.com/spatial-umi-dream/) [[PDF]](https://arxiv.org/pdf/2611.07229) [[Code]](https://github.com/Yewandou7/spatial_umi_dream) [[Benchmark]](https://github.com/ZeYuan06/RoboTwin-UMI)
+
+<details class="cite-box" markdown="0"><summary>Cite (BibTeX)</summary><pre class="bibtex">@misc{yuan2026spatialumidreamscalingworldaction,
+  title={Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation},
+  author={Weiduo Yuan and Ze Yuan and Sihan Liu and Jionghao Wang and Liang Heng and Zhenyu Zhao and Yue Wang},
+  year={2026},
+  eprint={2611.07229},
+  archivePrefix={arXiv},
+  primaryClass={cs.RO},
+  url={https://arxiv.org/abs/2611.07229}
+}</pre><button class="copy-bib" onclick="copyBib(this)">Copy</button></details>
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CoRL 2026</div><img src='images/simple.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
