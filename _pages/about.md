@@ -128,7 +128,7 @@ Xiaoqi Li, **Liang Heng**, Jiaming Liu, Yan Shen, Chenyang Gu, Zhuoyang Liu, Hao
 
 [Spatial-UMI-Dream: Scaling World Action Models with Metric Geometry for UMI Manipulation](https://arxiv.org/abs/2611.07229)
 
-Weiduo Yuan<sup>*</sup>, Ze Yuan<sup>*</sup>, Sihan Liu<sup>*</sup>, Jionghao Wang, **Liang Heng**, Zhenyu Zhao, Yue Wang
+Weiduo Yuan, Ze Yuan, Sihan Liu, Jionghao Wang, **Liang Heng**, Zhenyu Zhao, Yue Wang
 
 [[Project]](https://weiduoyuan.com/spatial-umi-dream/) [[PDF]](https://arxiv.org/pdf/2611.07229) [[Code]](https://github.com/Yewandou7/spatial_umi_dream) [[Benchmark]](https://github.com/ZeYuan06/RoboTwin-UMI)
 
